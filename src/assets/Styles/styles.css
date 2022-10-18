@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+}
+
+.headerVideo {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.header-top {
+  position: absolute;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  z-index: 10;
+  background-color: transparent;
+}
+
+.Hedear-Nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
