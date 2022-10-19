@@ -6,6 +6,7 @@
 .header {
   width: 100vw;
   height: 100vh;
+  
 }
 
 .headerVideo {
@@ -23,11 +24,14 @@
   width: 100px;
   height: 100px;
   z-index: 10;
-  background-color: transparent;
 }
 
 .Hedear-Nav {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.parent{
+  padding: 20px 10px;
 }
