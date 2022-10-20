@@ -9,22 +9,35 @@ export default function Header() {
         <source src={video} type="video/mp4" />
       </video>
 
-      <Row className="parent" justify="space-evenly">
+      <Row className="parent" justify="space-evenly" align="middle">
         <Col sm={6} className="child" justify="center">
           <div className="logo">
             <img src={picLogo} />
+            <span>جزمین مووی</span>
           </div>
         </Col>
 
         <Col sm={12} className="child">
           <nav>
             <ul className="Hedear-Nav">
-              <li href="#">HomeOne</li>
-              <li href="#">Movie</li>
-              <li href="#">TVShow</li>
-              <li href="#">Pricing</li>
-              <li href="#">Blog</li>
-              <li href="#">Contact</li>
+              <li>
+                <a href="#">خانه</a>
+              </li>
+              <li>
+                <a href="#">فیلم</a>
+              </li>
+              <li>
+                <a href="#">تی وی </a>
+              </li>
+              <li>
+                <a href="#">قیمت</a>
+              </li>
+              <li>
+                <a href="#">بلاگ</a>
+              </li>
+              <li>
+                <a href="#">تماس با ما</a>
+              </li>
             </ul>
           </nav>
         </Col>
