@@ -1,19 +1,19 @@
-import video from "../assets/Videos/3.mp4";
-import picLogo from "../assets/Pictures/logo.png";
-import { Col, Row, Button } from "antd";
+import { FaNutritionix } from "react-icons/fa";
+import { Col, Row, Button, Slider } from "antd";
+
+import MySlider from "./MySlider";
 
 export default function Header() {
   return (
     <header className="header">
-      <video autoPlay loop muted className="headerVideo">
-        <source src={video} type="video/mp4" />
-      </video>
+      <MySlider />
 
       <Row className="parent" justify="space-evenly" align="middle">
         <Col sm={6} className="child" justify="center">
           <div className="logo">
-            <img src={picLogo} />
-            <span>جزمین مووی</span>
+            {/* <FontAwesomeIcon icon='faCoffee'/> */}
+            <FaNutritionix style={{ color: "white", fontSize: "4em" }} />
+            <a>جزمین مووی</a>
           </div>
         </Col>
 
@@ -44,7 +44,7 @@ export default function Header() {
 
         <Col sm={6} className="child">
           <div className="header-right">
-            <Button type="primary">Primary Button</Button>
+            <Button type="primary">ورود</Button>
           </div>
         </Col>
       </Row>
